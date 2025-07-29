@@ -57,3 +57,23 @@ if (num1 > num2) {
 }
 
 num1 > num2 ? console.log(num1 * 2) : console.log(num1 + num2);
+
+// task 6 ticket fare calculator
+
+var age = 51;
+var students = false;
+var ticketPrice = 800;
+
+if (age < 10) {
+  console.log("Ticket free for childrens");
+} else if (students == true) {
+  var studentDiscount = (ticketPrice * 50) / 100;
+  var studentPrice = ticketPrice - studentDiscount;
+  console.log(studentPrice);
+} else if (age >= 60) {
+  var seniorDiscount = (ticketPrice * 15) / 100;
+  var seniorPrice = ticketPrice - seniorDiscount;
+  console.log(seniorPrice);
+} else {
+  console.log(ticketPrice);
+}
