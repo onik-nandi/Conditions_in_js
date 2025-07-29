@@ -45,3 +45,15 @@ if (myMarks > 80) {
   console.log("Go home & Sleep");
 }
 
+// task 5
+
+var num1 = 33;
+var num2 = 30;
+if (num1 > num2) {
+  var total = num1 * 2;
+  console.log(total);
+} else {
+  console.log(num1 + num2);
+}
+
+num1 > num2 ? console.log(num1 * 2) : console.log(num1 + num2);
